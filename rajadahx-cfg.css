@@ -1,0 +1,87 @@
+ .u-section-1 {
+  background-image: url("images/fundo_plastico.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1236px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 352px;
+  margin: 611px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 787px;
+  height: 338px;
+  margin: -546px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: linear-gradient(#ffb400, #d68400);
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  margin: 125px auto 60px;
+  padding: 28px 97px 28px 96px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1024px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1023px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 720px;
+    height: 310px;
+    margin-top: -545px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 153px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 334px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 540px;
+    height: 233px;
+    margin-top: -527px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 230px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 210px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 147px;
+    margin-top: -403px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 316px;
+  }
+}
